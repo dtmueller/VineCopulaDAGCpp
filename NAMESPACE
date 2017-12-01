@@ -1,0 +1,5 @@
+useDynLib(VineCopulaDAGCpp)
+exportPattern("^[[:alpha:]]+")
+import(Rcpp)
+
+export(finalizeMatrixOuter)
